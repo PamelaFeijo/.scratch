@@ -1,0 +1,132 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="contact.css" />
+            <link
+                rel="shortcut icon"
+                href="./images/favicon.png"
+                type="image/x-icon"
+            />
+            <title>.scratch</title>
+        </head>
+        <body>
+            <div class="nav__menu">
+                <header class="header">
+                    <a href="#"
+                        ><img src="./images/logo.scratch-white-small.png" alt=""
+                    /></a>
+                    <ion-icon
+                        name="menu-outline"
+                        class="header__toggle"
+                        id="nav-toggle"
+                    ></ion-icon>
+                    <nav class="nav" id="nav-menu">
+                        <div class="bd-grid">
+                            <ion-icon
+                                name="close-outline"
+                                class="nav__close"
+                                id="nav-close"
+                            ></ion-icon>
+                            <div class="nav__perfil">
+                                <div class="nav__img">
+                                    <img
+                                        src="./images/logo.scratch-footprint-whiteBG.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link active"
+                                            >HOME</a
+                                        >
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">HTML</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">CSS</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">JS</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">FUN</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <h1>CONTACT US</h1>
+            
+            <section: class="main_section">
+            <img src="/images/contact_img.png" alt="contact_img" class="bloc">
+            <img src="/images/contact_us.png" alt="contact_us" class="bloc">
+            <p>We would like to take a moment to remind you that <span style="font-weight:bold; color:rgb(222, 79, 97)">your feedback</span> is important to us.
+                <br>Should you have any question regarding the content of this website or suggestion to improve it, please feel free to contact us by filling <span style="font-weight:bold; color:rgb(222, 79, 97)">the form below</span>.
+                <br>Our team will take each message with <span style="font-weight:bold; color:rgb(222, 79, 97)">high consideration</span> and will answer to you in the best possible delays.
+            </p>
+            </section:>
+
+            <section: class="form" id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input
+                        type="text"
+                        name="name"
+                        class="input-bloc"
+                        placeholder="First and Last"
+                        required=""
+                    />
+                    <label for="email-address">Email Address</label>
+                    <input
+                        type="email"
+                        name="_replyto"
+                        class="input-bloc"
+                        placeholder="email@domain.com"
+                        required=""
+                    />
+                    <label for="topic">Topic</label>
+                    <select name="topic" class="input-bloc" required="">
+                        <option value="Select" selected="" disabled="">
+                            Select
+                        </option>
+                        <option value="Technical assistance">Technical assistance</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Suggestion">Suggestion</option>
+                        <option value="Problem navigating">Problem navigating</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea
+                        rows="5"
+                        name="message"
+                        class="input-message"
+                        placeholder="Your message here"
+                        required=""
+                    ></textarea>
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        class="input-message"
+                        value="Department Contact Form Submission"
+                    />
+                </fieldset>
+                <input id="send-button" type="submit" value="Send" />
+            </section>
+
+            <!--===== IONICOS =====-->
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <!--===== MAIN JS =====-->
+            <script src="index.js"></script>
+        </body>
+    </html>
