@@ -12,7 +12,7 @@
 body {
   margin: 3rem 0 0 0;
   font-family: "Roboto", sans-serif;
-  font-size: 0.938rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -53,9 +53,8 @@ img {
   align-items: center;
 }
 
-
 .header__toggle {
-  font-size: 1.5rem;
+  font-size: 3.0rem;
   color: #fff;
   cursor: pointer;
 }
@@ -78,7 +77,7 @@ img {
 .nav__close {
   position: absolute;
   right: 1.5rem;
-  font-size: 1.3rem;
+  font-size: 2.0rem;
   padding: 0.25rem;
   background-color: #282b3a;
   border-radius: 50%;
@@ -117,4 +116,59 @@ img {
 /*Active menu*/
 .active {
   color: #de4161;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .header {
+    height: calc(3rem + 1rem);
+  }
+ #nav-close, .header__toggle{
+    display: none;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav__content {
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+  }
+  .nav__image img {
+    display: none;
+  }  
+  .nav__img {
+    display: none;
+  }
+  .nav__list {   
+    display: flex;
+  }
+  .nav__item {
+    margin: 0 0.25rem;
+  }
+  .nav__link {
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.25rem;   
+  }
+  .nav__link:hover {
+    background-color: #f1cd3d;
+  }
+  .active {    
+    color: #de4161;
+  }
+  .bd-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bd-grid {
+    display: flex;
+    justify-content: space-between;
+  }
 }
