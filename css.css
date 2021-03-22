@@ -1,0 +1,72 @@
+.css__h1 {
+    color: #531c4a;
+    text-align: center;
+    font-size: 48px;
+    padding: 29px 0 20px;
+  }
+  
+  h2 {
+    color: #f1cd3d;
+    padding: 40px 0 20px;
+    text-align: center;
+    background-color: #531c4a;
+    padding: 10px 50px 10px 50px;
+    margin: 40px 0 5px 0;
+  }
+  
+  h3 {
+    color: #de4f61;
+    padding: 1px 0 5px;
+  }
+  
+  .p2 {
+    font-weight: lighter;
+  }
+  
+  .css__iframe {
+    padding: 29px 0 10px;
+  }
+  
+  .ul_css {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ul__titles {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #de4f61;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    box-shadow: 0px 5px 10px grey;
+    font-size: 16px;
+    margin: 30px 0 30px 0;
+  }
+  
+  h3,
+  .p2 {
+    padding: 0 40px 0 40px;
+  }
+  
+  .pIntro {
+    padding: 0 30px 0 30px;
+    text-align: center;
+  }
+  
+  .books {
+    padding: 30px 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* .tutorials_html {
+    background-image: url("images/button-tutorials.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
