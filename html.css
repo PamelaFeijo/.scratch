@@ -5,11 +5,24 @@
   padding: 29px 0 20px;
 }
 
-h2 {
+/* h2 {
   color: #f1cd3d;
   padding: 40px 0 20px;
   text-align: center;
   background-color: #531c4a;
+  padding: 10px 50px 10px 50px;
+  margin: 40px 0 5px 0;
+} */
+
+/* .ul__titles {
+  display: flex;
+  justify-content: center;
+} */
+
+.titles {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 20px;
   padding: 10px 50px 10px 50px;
   margin: 40px 0 5px 0;
 }
@@ -28,11 +41,6 @@ h3 {
 }
 
 .ul_html {
-  display: flex;
-  justify-content: center;
-}
-
-.ul__titles {
   display: flex;
   justify-content: center;
 }
