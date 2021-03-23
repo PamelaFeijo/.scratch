@@ -73,7 +73,7 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 12%;
-  font-size: 1.5rem;
+  font-size: 1.5rem; 
 }
 
 .fun__paragraph {
@@ -82,7 +82,7 @@ body {
   font-weight: 300;
   margin-left: 12%;
   margin-bottom: 5%;
-  width: 70%;
+  width: 70%; 
 }
 
 .fun__button {
@@ -103,7 +103,7 @@ body {
 
 iframe {
   display: block;
-  margin: 0 auto 15%;
+  margin: 0 auto 5%;
   border-width: 0;
 }
 
@@ -163,5 +163,10 @@ iframe {
     display: grid;
     grid-template-columns: repeat(auto-fill, 50%);
     min-width: 50%;
+  }
+  .fun__games .fun__play {
+    display: block;
+    margin: 0 15% 0;
+    height: 400px;
   }
 }
