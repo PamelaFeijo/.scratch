@@ -8,35 +8,8 @@
     box-sizing: border-box;
 }
 
-/*===== BASE =====*/
 body {
-    margin: 3rem 0 0 0;
     font-family: "Roboto", sans-serif;
-    font-size: 0.938rem;
-    font-weight: 400;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.bd-grid {
-    max-width: 1024px;
-    display: grid;
-    grid-template-columns: 100%;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
 }
 
 /*===== CONTACT PAGE =====*/
@@ -45,6 +18,7 @@ h1 {
     text-align: center;
     color: #581c48;
     padding: 29px 0 20px;
+    margin-top: 50px;
 }
 
 .main_section {
@@ -55,16 +29,20 @@ h1 {
 }
 
 .main_section > img {
-    width: 250px;
+    width: 270px;
     max-width: 80%;
+    margin-bottom: 30px;
 }
 
 p {
-    padding: 29px 0 20px;
+    padding: 20px 0 30px;
     width: 70%;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    max-width: 650px;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .form {
@@ -83,6 +61,7 @@ p {
     width: 500px;
     max-width: 90%;
     border: 0;
+    font-size: 17px;
 }
 
 label {
@@ -124,4 +103,13 @@ label {
     border: 0;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 768px) {
+    .main-section > h1 {
+        padding: 100px 0 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
 }
