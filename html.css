@@ -1,8 +1,8 @@
 .html__h1 {
-  color: #531c4a;
-  text-align: center;
-  font-size: 48px;
-  padding: 29px 0 20px;
+    color: #531c4a;
+    text-align: center;
+    font-size: 48px;
+    padding: 29px 0 20px;
 }
 
 /* h2 {
@@ -14,61 +14,63 @@
   margin: 40px 0 5px 0;
 } */
 
-.titles {
+/* .ul__titles {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+} */
+
+.titles {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 20px;
+    padding: 10px 50px 10px 50px;
+    margin: 40px 0 5px 0;
 }
 
 h3 {
-  color: #de4f61;
-  padding: 1px 0 5px;
+    color: #de4f61;
+    padding: 1px 0 5px;
 }
 
 .p2 {
-  font-weight: lighter;
+    font-weight: lighter;
 }
 
 .html__iframe {
-  padding: 29px 0 10px;
+    padding: 29px 0 10px;
 }
 
 .ul_html {
-  display: flex;
-  justify-content: center;
-}
-
-.ul__titles {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 button {
-  background-color: #de4f61;
-  color: white;
-  border-radius: 20px;
-  width: 150px;
-  height: 40px;
-  border: 0;
-  box-shadow: 0px 5px 10px grey;
-  font-size: 16px;
-  margin: 30px 0 30px 0;
+    background-color: #de4f61;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    box-shadow: 0px 5px 10px grey;
+    font-size: 16px;
+    margin: 30px 0 30px 0;
 }
 
 h3,
 .p2 {
-  padding: 0 40px 0 40px;
+    padding: 0 40px 0 40px;
 }
 
 .pIntro {
-  padding: 0 30px 0 30px;
-  text-align: center;
+    padding: 0 30px 0 30px;
+    text-align: center;
 }
 
 .books {
-  padding: 30px 0 15px 0;
-  display: flex;
-  justify-content: space-around;
+    padding: 30px 0 15px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* .tutorials_html {
