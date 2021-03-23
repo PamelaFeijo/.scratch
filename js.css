@@ -5,19 +5,19 @@
   padding: 29px 0 20px;
 }
 
-.technologyIcon {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-h2 {
+/* h2 {
   color: #f1cd3d;
   padding: 40px 0 20px;
   text-align: center;
   background-color: #531c4a;
   padding: 10px 50px 10px 50px;
   margin: 40px 0 5px 0;
+} */
+
+.titles {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
 }
 
 h3 {
@@ -72,7 +72,7 @@ h3,
 }
 
 /* .tutorials_html {
-    background-image: url("images/button-tutorials.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+  background-image: url("images/button-tutorials.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
