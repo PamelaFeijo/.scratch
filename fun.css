@@ -85,7 +85,7 @@ body {
   width: 70%;
 }
 
-.fun__button {
+.myBtn {
   background-color: rgb(222, 79, 97);
   color: #fff;
   font-size: 20px;
@@ -101,9 +101,9 @@ body {
   margin: 0 auto 50px;
 }
 
-.fun__button:hover { 
-    background-color: rgb(224, 105, 121);
-    color: #fff;
+.fun__button:hover {
+  background-color: rgb(224, 105, 121);
+  color: #fff;
 }
 
 iframe {
@@ -126,7 +126,7 @@ iframe {
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px) {
   .fun__header > h1 {
-    padding-top: 100px;    
+    padding-top: 100px;
     margin-left: 30%;
     margin-right: 30%;
   }

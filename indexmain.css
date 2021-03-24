@@ -1,0 +1,138 @@
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 768px) {
+    body {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .header {
+      height: calc(3rem + 1rem);
+    }
+   #nav-close, .header__toggle{
+      display: none;
+    }
+    .nav {
+      width: 100%;
+    }
+    .nav__content {
+      grid-template-columns: repeat(3, max-content);
+      grid-template-rows: 1fr;
+      justify-content: space-between;
+    }
+    .nav__image img {
+      display: none;
+    }  
+    .nav__img {
+      display: none;
+    }
+    .nav__list {   
+      display: flex;
+    }
+    .nav__item {
+      margin: 0 0.25rem;
+    }
+    .nav__link {
+      padding: 0.5rem 0.8rem;
+      border-radius: 0.25rem;   
+    }
+    .nav__link:hover {
+      background-color:#f1cd3d;
+    }
+    .active {    
+      color: #de4161;
+    }
+    .bd-grid {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .bd-grid {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  /*MAIN PAGE*/
+  
+  
+  
+  .section {
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+  .icon {
+    height: 92px;
+    width: 92px;
+    left: 141px;
+    top: 902px;
+    border-radius: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .icon:hover {
+    transform: scale(1.5);
+  }
+    
+  
+  .buttons {
+    width: 70%;
+    height: 70%;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    /*transition: transform .2s; /* Animation */
+  }
+  
+  .button1link:hover {
+    transform: scale(1.2); 
+    
+  }
+  .button2link:hover {
+    transform: scale(1.2); 
+    
+  }
+  .button3link:hover {
+    transform: scale(1.2); 
+    
+  }
+  
+  
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 10px 0px;
+  }
+  
+  .section-inner .dino_desk{
+      display: none;
+  }
+  .dino_img {
+    
+    margin: auto;
+    transition: all 1s ease-in-out;
+  }
+  #dino_img:hover {
+    transform: scale(2);
+  }
+  .section p{
+    margin: 50px 80px 80px 50px;
+  }
+  .section h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
