@@ -1,61 +1,107 @@
-.css__h1 {
+.css__header > h1 {
   font-size: 48px;
   text-align: center;
   color: #581c48;
   padding: 29px 0 20px;
-}
-.ul__titles{
-  padding: 10px 50px 10px 50px;
-  margin: 40px 0 5px 0;
-  display: flex;
-  justify-content: center;
+  margin-top: 5%
 }
 
-.ul__css{
-  display: flex;
-  justify-content: center;
-
-}
-h3 {
-  color: #de4f61;
-  padding: 1px 0 5px;
+.css__header > p {
+  font-size: 17px;
+  color: #000;
+  padding: 0 29px;
+  font-weight: 300;
+  text-align: center;
 }
 
-.p2 {
-  font-weight: lighter;
+.css__header span {
+  color: #ee5c66;
+  font-weight: 700;
 }
 
-.css__iframe {
-  padding: 29px 0 10px;
+.css__header > img {
+  display: block;
+  margin: 5% auto 5%;
+  height: 60px;
 }
 
-
-.p2 {
-  padding: 0 40px 0 40px;
+.css__bloc > iframe {
+  display: block;
+  margin: auto;
 }
 
-
-
-.books {
-  padding: 30px 0 15px 0;
-  display: flex;
-  justify-content: space-around;
+.css__header > h2 {
+  color: #ee5c66;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 12%;
+  font-size: 1.5rem;
 }
-button {
-  background-color: #de4f61;
-  color: white;
-  border-radius: 20px;
+
+.css__bloc .css__paragraph {
+  font-size: 17px;
+  color: #000;
+  font-weight: 300;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.css__button {
+  background-color: rgb(222, 79, 97);
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0px 3px 8px grey;
+  border-radius: 30px;
   width: 150px;
   height: 40px;
+  max-width: 80%;
   border: 0;
-  box-shadow: 0px 5px 10px grey;
-  font-size: 16px;
-  margin: 30px 0 30px 0;
-  align-items: center;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin: 0 auto 50px;
 }
+
+.css__image {
+  display: block;
+  margin: 5% auto 5%;
+  height: 60px;
+}
+
+.css__bloc > h2{
+  color: #ee5c66;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 12%;
+  font-size: 1.5rem;
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (min-width: 768px) {
+  .css__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    min-width: 25%;
+  }
+  .css__bloc {
+    padding: 0.5em;
+  }
   
-  /* .tutorials_html {
-    background-image: url("images/button-tutorials.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .css__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    min-width: 50%;
+  }
+  .css__video {
+    display: block;
+    margin: 0 15% 0;
+    height: 400px;
+  } 
+}
+

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="fun.css">   
+    <link rel="stylesheet" href="quiz.css">    
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <title>.scratch</title>
+    <title>.scratch | fun</title>
 </head>
 <body>
     <div class="nav__menu">
@@ -25,9 +26,9 @@
                     <div>
                         <ul class="nav__list">
                             <li class="nav__item"><a href="index.html" class="nav__link active">HOME</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">HTML</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">CSS</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">JS</a></li>
+                            <li class="nav__item"><a href="html.html" class="nav__link">HTML</a></li>
+                            <li class="nav__item"><a href="css.html" class="nav__link">CSS</a></li>
+                            <li class="nav__item"><a href="js.html" class="nav__link">JS</a></li>
                             <li class="nav__item"><a href="fun.html" class="nav__link">FUN</a></li>
                             <li class="nav__item"><a href="contact.html" class="nav__link">CONTACT</a></li>
                         </ul>
@@ -44,28 +45,35 @@
                     Practicing is Key to accomplish your goals. All you need is a boost driven by game excitements and <span>score</span>your logistic acquisition level. 
                     </p>
             </div>
+            <div class="fun__quiz">
+                <h2 class=fun__title>QUIZ</h2>
+                <div id="quiz"></div>
+                <button id="submit">Submit Quiz</button>
+                <div id="results"></div>    
+            </div>           
+            
             <div class="fun__games">
-                <h2 class="fun__title">GAMES</h2>
+                <img src="./images/fun__game.png" alt="Games">
                 <div class="fun__grid">
                     <div class="fun__bloc">
                         <a href="https://flexboxfroggy.com/"><img src="./images/froggygame.png" alt="Froggy game" class="fun__play"></a>
-                        <h3 class="fun__subtitle">Flexbox Froggy</h3>
+                        <h2 class="fun__subtitle">Flexbox Froggy</h2>
                         <p class="fun__paragraph">Help Froggy and friends by writing CSS code! This game introducesw the fundamentals of using CSS flexbox to position elements on a webpage. </p>   
                     </div> 
                     <div class="fun__bloc">
                         <a href="https://cssgridgarden.com/"><img src="./images/gridgardengame.png" alt="Grid garden game" class="fun__play"></a>
-                        <h3 class="fun__subtitle">Grid Garden</h3>
+                        <h2 class="fun__subtitle">Grid Garden</h2>
                         <p class="fun__paragraph">In this game, you must water your carrot crops and poison the weeds by mastering CSS grid, a powerful new module 
                             that makes 2-dimensional grid layouts a piece of cake. With it you can define columns, rows, and grid template areas. </p>
                     </div>
                     <div class="fun__bloc">
                         <a href="https://flexboxfroggy.com/"><img src="./images/froggygame.png" alt="Froggy game" class="fun__play"></a>
-                        <h3 class="fun__subtitle">Flexbox Froggy</h3>
+                        <h2 class="fun__subtitle">Flexbox Froggy</h2>
                         <p class="fun__paragraph">Help Froggy and friends by writing CSS code! This game introducesw the fundamentals of using CSS flexbox to position elements on a webpage. </p>   
                     </div> 
                     <div class="fun__bloc">
                         <a href="https://cssgridgarden.com/"><img src="./images/gridgardengame.png" alt="Grid garden game" class="fun__play"></a>
-                        <h3 class="fun__subtitle">Grid Garden</h3>
+                        <h2 class="fun__subtitle">Grid Garden</h2>
                         <p class="fun__paragraph">In this game, you must water your carrot crops and poison the weeds by mastering CSS grid, a powerful new module 
                             that makes 2-dimensional grid layouts a piece of cake. With it you can define columns, rows, and grid template areas. </p>
                     </div>
@@ -75,17 +83,106 @@
                 <button class="fun__button">More</button>
             </div>            
             <div class="fun__events">
-                <h2 class="fun__title">EVENTS</h2>
-                <img src="./images/calendar_funpage.png" alt="Calendar">
-                <h3 class="fun__subtitle">CSS in 2 hours</h3>
-                <p class="fun__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </p>
-                <button class="fun__button">More</button>
-            </div>
+                <img src="./images/fun__events.png" alt="Events">
+                <p class="events__title">Here you can find some cool events for you to keep on building your knowledge.</p>                
+                <div class="big-calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;bgcolor=%23581c48&amp;ctz=Europe%2FAmsterdam&amp;src=cDc5Mm51bGs5dTM2czFqcGlzc2cwbmVjOGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D50000&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;mode=MONTH&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="50%" height="600px" frameborder="0" scrolling="no"></iframe>
+                </div>                
+                <div class="small-calendar">
+                  <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;bgcolor=%23581c48&amp;ctz=Europe%2FAmsterdam&amp;src=cDc5Mm51bGs5dTM2czFqcGlzc2cwbmVjOGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D50000&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;mode=AGENDA&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="90%" height="400px" frameborder="0" scrolling="no"></iframe>                
+                </div>                
+            </div>                
         </section>
+        <footer class="footer">
+            <div class="footer-left">
+                <img src="images/logo.scratch-white-small.png" />
+                <f class="footer-links">
+                    <a href="index.html">HOME</a> |
+                    <a href="html.html">HTML</a> | <a href="css.html">CSS</a> |
+                    <a href="js.html">JS</a> | <a href="fun.html">FUN</a> |
+                    <a href="contact.html">CONTACT</a>
+                </f>
+            </div>
+            <div class="footer-center">
+                <div class="footer-description">
+                    <f
+                        ><span
+                            style="
+                                font-weight: bold;
+                                font-size: 13px;
+                                color: rgb(222, 79, 97);
+                            "
+                            >.scratch</span
+                        >
+                        is a website full of new discoveries. You want to be a
+                        <span style="font-weight: bold; color: rgb(222, 79, 97)"
+                            >web developer</span
+                        >? scratch and learn the fantastic languages behind
+                        softwares? Then welcome again in
+                        <span style="font-weight: bold; color: rgb(222, 79, 97)"
+                            >.scratch!</span
+                        ></f
+                    >
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-about">
+                    <h3>About us</h3>
+                    <f
+                        ><span
+                            >Project from students at <br /><a
+                                href="https://www.wildcodeschool.com/en-GB"
+                                >Wild Code School</a
+                            ></span
+                        ></f
+                    >
+                </div>
+                <table class="nav__list">
+                    <tr>
+                        <td class="nav__name">Silvia</td>
+                        <td class="nav__item">
+                            <a href="https://www.linkedin.com/in/silviacabellom/"><img src="images/linkedin.png"/></a>
+                        </td>
+                        <td class="nav__item">
+                            <a href="https://github.com/SilviaCabello"><img src="images/github.png"/></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nav__name">Helen</td>
+                        <td class="nav__item">
+                            <a href="https://www.linkedin.com/in/helen-trisha-laurencine-ndiaye-b95483151/"><img src="images/linkedin.png"/></a>
+                        </td>
+                        <td class="nav__item"><a href="https://github.com/HELENTRISHA"><img src="images/github.png"/></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nav__name">Pamela</td>
+                        <td class="nav__item">
+                            <a href="https://www.linkedin.com/in/pamelafeijo/"><img src="images/linkedin.png"/></a>
+                        </td>
+                        <td class="nav__item">
+                            <a href="https://github.com/PamelaFeijo"><img src="images/github.png"/></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nav__name">Guillaume</td>
+                        <td class="nav__item"><a href="https://www.linkedin.com/in/guillaumecojan/"><img src="images/linkedin.png"/></a>
+                        </td>
+                        <td class="nav__item">
+                            <a href="https://github.com/Guillaume-Cojan"><img src="images/github.png"/></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">© 2021 .scratch</div>
+            </div>
+        </footer>
     <!--===== IONICOS =====-->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
-    <script src="index.js"></script>
+    <script src="index.js"></script>     
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>       
 </body>
 </html>

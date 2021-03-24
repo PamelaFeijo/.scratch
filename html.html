@@ -12,7 +12,7 @@
 <body>
     <div class="nav__menu">
         <header class="header">
-            <a href="#"><img src="./images/logo.scratch-white-small.png" alt=""></a>
+            <a href="index.js"><img src="./images/logo.scratch-white-small.png" alt=""></a>
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
             <nav class="nav" id="nav-menu">
                 <div class="bd-grid">
@@ -24,48 +24,75 @@
                     </div>    
                     <div>
                         <ul class="nav__list">
-                            <li class="nav__item"><a href="#" class="nav__link active">HOME</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">HTML</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">CSS</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">JS</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">FUN</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">CONTACT</a></li>
+                            <li class="nav__item"><a href="index.html" class="nav__link active">HOME</a></li>
+                            <li class="nav__item"><a href="html.html" class="nav__link">HTML</a></li>
+                            <li class="nav__item"><a href="css.html" class="nav__link">CSS</a></li>
+                            <li class="nav__item"><a href="js.html" class="nav__link">JS</a></li>
+                            <li class="nav__item"><a href="fun.html" class="nav__link">FUN</a></li>
+                            <li class="nav__item"><a href="contact.html" class="nav__link">CONTACT</a></li>
                         </ul>
                     </div>                    
                 </div>
             </nav>
         </header>
         <section class="html__page">
+
             <h1 class="html__h1">HTML</h1>
-            <p class="pIntro">Lorem ipsum dolor sit amet <span style="font-weight:bold; color:rgb(222, 79, 97)">consectetur</span> adipisicing elit. Ratione provident aliquam molestiae obcaecati nesciunt sint ut dolor neque commodi <span style="font-weight:bold; color:rgb(222, 79, 97)">veritatis</span> unde assumenda corrupti aliquid optio molestias reprehenderit, tempore, placeat facere.</p>
+            <p class="pIntro">HTML code ensures the <span style="font-weight:bold; color:rgb(222, 79, 97)">proper formatting</span> of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance. One could think of <span style="font-weight:bold; color:rgb(222, 79, 97)">HTML as the bones</span> (structure) of a web page, and CSS as its skin (appearance).</p>
             
-            <ul class="ul__titles">
-                <h2 class="tutorials_html">TUTORIALS</h2>
+             <ul class="titles">
+                 <img class="tutorialTitle" src="images/tutorials.png" alt="tutorials">
              </ul>
-            
-            <ul class="ul_html"> 
-                <iframe class="html__iframe" width="420" height="200" src="https://www.youtube.com/embed/qz0aGYrrlhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen ></iframe>
-            </ul>
-            <h3>HTML Video tutorial 1</h3>
-            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident aliquam molestiae obcaecati nesciunt sint ut dolor neque commodi veritatis unde assumenda corrupti.</p>
-            
-            <ul class="ul_html">
-                <iframe class="html__iframe" width="420" height="200" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </ul>
-            <h3>HTML Video tutorial 2</h3>
-            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione provident aliquam molestiae obcaecati nesciunt sint ut dolor neque commodi veritatis unde assumenda corrupti.</p>
+             
+            <div class="videoGrid">
+
+                <div class="videoBloc">
+                    <ul class="ul_html"> 
+                        <iframe class="html__iframe" width="420" height="200" src="https://www.youtube.com/embed/qz0aGYrrlhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen ></iframe>
+                    </ul>
+                    <h3>HTML in 1 hour</h3>
+                    <p class="p2">HTML Tutorial for Beginners - Learn HTML for a career in web development.</p>
+                    <p class="p2">This HTML tutorial teaches you everything you need to get started.</p>    
+                </div>
+                
+                <div class="videoBloc">
+                    <ul class="ul_html">
+                        <iframe class="html__iframe" width="420" height="200" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </ul>
+                    <h3>HTML in 2 hours</h3>
+                    <p class="p2">Learn the basics of HTML5 and web development with Mike Dane.</p>
+                    <p class="p2">From Basic Tags to Meta Tags</p>    
+                </div>
+                
+                <div class="videoBloc"><ul class="ul_html">
+                    <iframe class="html__iframe" width="420" height="200" src="https://www.youtube.com/embed/UB1O30fR-EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ul>
+                <h3>HTML Crash Course</h3>
+                <p class="p2">Create a cheat sheet with all of the common HTML5 tags, attributes,</p>
+                <p class="p2">semantic markup, etc.</p>
+            </div>
+                
+            </div>
             
             <ul class="ul_html">
                 <button>More</button>
             </ul>
 
-            <ul class="ul__titles">
+            <!-- <ul class="ul__titles">
                 <h2>BOOKS</h2>
+            </ul> -->
+            <ul class="titles">
+                <img src="images/books.png" alt="tutorials">
             </ul>
 
+
+            <!-- <ul class="ul__titles">
+                <h2>BOOKS</h2>
+            </ul> -->
+
             <ul class="books">
-                <a href="https://www.amazon.de/-/en/Jon-Duckett/dp/1118008189/ref=sr_1_4?crid=2OOUAMNPSZ5E6&dchild=1&keywords=html&qid=1616082416&sprefix=html%2Caps%2C179&sr=8-4"><img width="120" height="150" src="images/book-html-1.jpeg" alt=""></a>
-                <a href="https://www.amazon.de/-/en/Jon-Duckett/dp/1118008189/ref=sr_1_4?crid=2OOUAMNPSZ5E6&dchild=1&keywords=html&qid=1616082416&sprefix=html%2Caps%2C179&sr=8-4"><img width="120" height="150" src="images/book-html-1.jpeg" alt=""></a>
+                <a class="book1" href="https://www.amazon.de/-/en/Jon-Duckett/dp/1118008189/ref=sr_1_4?crid=2OOUAMNPSZ5E6&dchild=1&keywords=html&qid=1616082416&sprefix=html%2Caps%2C179&sr=8-4"><img class="book1" width="120" height="150" src="images/book-html-1.jpeg" alt=""></a>
+                <a class="book2" href="https://www.amazon.de/-/en/Elisabeth-Robson-ebook/dp/B00AF57GAW/ref=sr_1_30?dchild=1&keywords=html+book&qid=1616514216&sr=8-30"><img class="book2" width="120" height="150" src="images/htmlBook3.jpeg" alt=""></a>
             </ul>
 
             <ul class="ul_html">
@@ -73,6 +100,8 @@
             </ul>
         </section>
 
+
+        
     <!--===== IONICOS =====-->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
