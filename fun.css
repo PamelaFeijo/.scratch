@@ -73,7 +73,7 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 12%;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .fun__paragraph {
@@ -82,7 +82,7 @@ body {
   font-weight: 300;
   margin-left: 12%;
   margin-bottom: 5%;
-  width: 70%; 
+  width: 70%;
 }
 
 .fun__button {
@@ -99,6 +99,11 @@ body {
   left: 50%;
   display: block;
   margin: 0 auto 50px;
+}
+
+.fun__button:hover { 
+    background-color: rgb(224, 105, 121);
+    color: #fff;
 }
 
 iframe {
@@ -121,7 +126,7 @@ iframe {
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px) {
   .fun__header > h1 {
-    padding: 100px 0 20px;
+    padding-top: 100px;    
     margin-left: 30%;
     margin-right: 30%;
   }
@@ -148,6 +153,8 @@ iframe {
   .fun__events > p {
     padding: 0 15% 5%;
     margin: auto;
+    width: 80%;
+    max-width: 800px;
   }
   .fun__subtitle {
     margin-left: 0%;
@@ -155,6 +162,7 @@ iframe {
   .fun__paragraph {
     margin-left: 0%;
     width: 80%;
+    max-width: 800px;
   }
 }
 
