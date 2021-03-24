@@ -67,7 +67,29 @@
                         <p class="css__paragraph">In this quick video we will go over the CSS Flexbox model. This is a quick overview, not an in-depth course.</p>  
                     </div>   
                 </div> 
-                    <button class="css__button">More</button>  
+                <ul class="ul_html">
+                    <button class="myBtn">More</button>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                              <h2>Want to learn more?</h2>
+                            </div>
+                            <div class="modal-body">
+                              <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                              <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                            </div>
+                            <div class="modal-footer">
+                                <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                    <fieldset class="modal-fs-frm-inputs">
+                                      <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                      <input type="submit" class="subscribe-btn" value="Subscribe">
+                                    </fieldset>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </ul>  
 
                     <div class="css__books"> 
                         <img class="css__image" src="images/books.png" alt="books"> 
@@ -76,7 +98,29 @@
                             <a href="https://www.amazon.nl/CSS-Pocket-Reference-Visual-Presentation/dp/1492033391/ref=asc_df_1492033391/?tag=nlshogostdde-21&linkCode=df0&hvadid=481548728788&hvpos=&hvnetw=g&hvrand=14242861335067670130&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1010648&hvtargid=pla-467017198029&psc=1"><img class="book2" width="120" height="150" src="images/CSSpocketreference.jpg" alt=""></a>                       
                         </div>
                     </div>
-                    <button class="css__button">More</button> 
+                    <ul class="ul_html">
+                        <button class="myBtn">More</button>
+                        <div class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                  <span class="close">&times;</span>
+                                  <h2>Want to learn more?</h2>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                                  <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                        <fieldset class="modal-fs-frm-inputs">
+                                          <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                          <input type="submit" class="subscribe-btn" value="Subscribe">
+                                        </fieldset>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </ul> 
                  
             </div>
         </section>    
@@ -171,5 +215,6 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
     <script src="index.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
