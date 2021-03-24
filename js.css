@@ -55,6 +55,11 @@ button {
   margin: 30px 0 30px 0;
 }
 
+button:hover {
+  background-color: rgb(224, 105, 121);
+  color: #fff;
+}
+
 h3,
 .p2 {
   padding: 0 40px 0 40px;
