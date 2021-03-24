@@ -93,6 +93,7 @@ h3,
     padding: 20px 400px 40px 400px;
     font-weight: lighter;
     font-size: 19px;
+    text-align: center;
   }
 
   .videoGrid {
@@ -202,4 +203,25 @@ h3,
   /* display: grid;
   grid-template-columns: repeat(auto-fill, 25%);
   min-width: 25%; */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+  .videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    min-width: 50%;
+  }
+
+  .html__iframe {
+    display: block;
+    margin: 0 15% 0;
+    height: 200px;
+    width: 400px;
+  }
+
+  .pIntro {
+    padding: 20px 50px 40px 50px;
+    font-weight: lighter;
+    font-size: 19px;
+  }
 }
