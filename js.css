@@ -43,7 +43,7 @@ h3 {
   justify-content: center;
 }
 
-button {
+.myBtn {
   background-color: #de4f61;
   color: white;
   border-radius: 20px;
