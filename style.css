@@ -260,7 +260,7 @@ footer {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 /* Footer left */
@@ -298,6 +298,7 @@ footer {
     color: #ffffff;
     display: inline-block;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .footer .footer-links a {
@@ -325,7 +326,7 @@ footer {
     color: #92999f;
     font-size: 13px;
     font-weight: normal;
-    margin: 10px 15px 10px 15px;
+    margin: 0px 5px 10px 5px;
 }
 
 /* Footer Right */
@@ -355,6 +356,7 @@ footer {
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 5px;
     padding-bottom: 10px;
 }
 
@@ -410,7 +412,7 @@ footer {
     .footer .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: center;
     }
 
