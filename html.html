@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="html.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <title>HTML</title>
+    <title>.scratch | HTML</title>
 </head>
 <body>
     <div class="nav__menu">
         <header class="header">
-            <a href="index.js"><img src="./images/logo.scratch-white-small.png" alt=""></a>
+            <a href="index.html"><img src="./images/logo.scratch-white-small.png" alt=""></a>
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
             <nav class="nav" id="nav-menu">
                 <div class="bd-grid">
@@ -75,7 +75,27 @@
             </div>
             
             <ul class="ul_html">
-                <button>More</button>
+                <button class="myBtn">More</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                          <h2>Want to learn more?</h2>
+                        </div>
+                        <div class="modal-body">
+                          <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                          <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                        </div>
+                        <div class="modal-footer">
+                            <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                <fieldset class="modal-fs-frm-inputs">
+                                  <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                  <input type="submit" class="subscribe-btn" value="Subscribe">
+                                </fieldset>
+                              </form>
+                        </div>
+                    </div>
+                </div>
             </ul>
 
             <!-- <ul class="ul__titles">
@@ -96,7 +116,27 @@
             </ul>
 
             <ul class="ul_html">
-                <button>More</button>
+                <button class="myBtn">More</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                          <h2>Want to learn more?</h2>
+                        </div>
+                        <div class="modal-body">
+                          <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                          <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                        </div>
+                        <div class="modal-footer">
+                            <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                <fieldset class="modal-fs-frm-inputs">
+                                  <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                  <input type="submit" class="subscribe-btn" value="Subscribe">
+                                </fieldset>
+                              </form>
+                        </div>
+                    </div>
+                </div>
             </ul>
         </section>
 
@@ -212,5 +252,6 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
     <script src="index.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
