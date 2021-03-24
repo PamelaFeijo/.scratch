@@ -34,6 +34,7 @@ h3 {
 
 .p2 {
   font-weight: lighter;
+  font-size: 19px;
 }
 
 .html__iframe {
@@ -58,8 +59,8 @@ button {
 }
 
 button:hover {
-    background-color: rgb(224, 105, 121);
-    color: #fff;
+  background-color: rgb(224, 105, 121);
+  color: #fff;
 }
 
 h3,
@@ -70,6 +71,9 @@ h3,
 .pIntro {
   padding: 0 30px 0 30px;
   text-align: center;
+  font-size: 19px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .books {
@@ -88,7 +92,8 @@ h3,
   .pIntro {
     padding: 20px 400px 40px 400px;
     font-weight: lighter;
-    font-size: 17px;
+    font-size: 19px;
+    text-align: center;
   }
 
   .videoGrid {
@@ -135,29 +140,27 @@ h3,
     width: 250px;
     height: 200px;
   }
-
 }
 
-/* ------ MEDIA QUERIES DESKTOP ------- */
+/* ------ MEDIA QUERIES iPad ------- */
 
 @media screen and (min-width: 768px) and (max-width: 1250px) {
+  .videoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    min-width: 50%;
+  }
 
-    .videoGrid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 50%);
-        min-width: 50%;
-    }
+  .html__iframe {
+    display: block;
+    margin: 0 15% 0;
+    height: 200px;
+    width: 400px;
+  }
 
-    .html__iframe {
-        display: block;
-        margin: 0 15% 0;
-        height: 200px;
-        width: 400px;
-    }
-
-    .pIntro {
-        padding: 20px 50px 40px 50px;
-        font-weight: lighter;
-        font-size: 17px;
-    }
+  .pIntro {
+    padding: 20px 50px 40px 50px;
+    font-weight: lighter;
+    font-size: 19px;
+  }
 }
