@@ -1,9 +1,9 @@
 .css__header > h1 {
-    font-size: 48px;
-    text-align: center;
-    color: #581c48;
-    padding: 29px 0 20px;
-    margin-top: 5%;
+  font-size: 48px;
+  text-align: center;
+  color: #581c48;
+  padding: 29px 0 20px;
+  margin-top: 5%;
 }
 
 .css__header > p {
@@ -71,35 +71,64 @@
 }
 
 .css__bloc > h2 {
-    color: #ee5c66;
-    font-weight: 700;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 12%;
-    font-size: 1.5rem;
+  color: #ee5c66;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 12%;
+  font-size: 1.5rem;
+}
+
+.books {
+  padding: 30px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px) {
-    .css__grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 25%);
-        min-width: 25%;
-    }
-    .css__bloc {
-        padding: 0.5em;
-    }
+  .css__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25%);
+    min-width: 25%;
+  }
+  .css__bloc {
+    padding: 0.5em;
+  }
+  .books {
+    display: flex;
+    justify-content: center;
+  }
+
+  .book1 {
+    padding: 0 50px 0 0;
+    width: 250px;
+    height: 200px;
+  }
+
+  .book2 {
+    padding: 0 0 0 50px;
+    width: 250px;
+    height: 200px;
+  }
+  /* .css__header p{ 
+    text-align: center;  
+    width: 80%;  
+    width: 80%;
+    
+    max-width: 800px; 
+  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1250px) {
-    .css__grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 50%);
-        min-width: 50%;
-    }
-    .css__video {
-        display: block;
-        margin: 0 15% 0;
-        height: 400px;
-    }
+  .css__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    min-width: 50%;
+  }
+  .css__video {
+    display: block;
+    margin: 0 15% 0;
+    height: 400px;
+  }
 }
