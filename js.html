@@ -82,7 +82,27 @@
            
 
             <ul class="ul_html">
-                <button>More</button>
+                <button class="myBtn">More</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                          <h2>Want to learn more?</h2>
+                        </div>
+                        <div class="modal-body">
+                          <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                          <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                        </div>
+                        <div class="modal-footer">
+                            <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                <fieldset class="modal-fs-frm-inputs">
+                                  <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                  <input type="submit" class="subscribe-btn" value="Subscribe">
+                                </fieldset>
+                              </form>
+                        </div>
+                    </div>
+                </div>
             </ul>
 
             <ul class="titles">
@@ -98,14 +118,13 @@
                 <a class="book2" href="https://www.amazon.de/-/en/James-Padolsey/dp/1789957648/ref=pd_bxgy_img_2/261-7565345-0140511?_encoding=UTF8&pd_rd_i=1789957648&pd_rd_r=6bc5897d-5d0f-434c-8c22-f9974c93bf31&pd_rd_w=J5biF&pd_rd_wg=zX9cp&pf_rd_p=4490d326-3239-499b-8c8a-0dd8d6ad582a&pf_rd_r=QV739ZGQGDFNH2HVZT9A&psc=1&refRID=QV739ZGQGDFNH2HVZT9A"><img class="book2" width="120" height="150" src="images/jsBook2.jpeg" alt=""></a>
             </ul>
 
-            <ul class="ul_html">
-                <button>More</button>
-            </ul>
+            
         </section>
 
     <!--===== IONICOS =====-->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
     <script src="index.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
