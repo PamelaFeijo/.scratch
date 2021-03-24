@@ -3,80 +3,86 @@
   text-align: center;
   color: #581c48;
   padding: 29px 0 20px;
-  margin-top: 5%
+  margin-top: 5%;
 }
 
 .css__header > p {
-  font-size: 17px;
-  color: #000;
-  padding: 0 29px;
-  font-weight: 300;
-  text-align: center;
+    font-size: 17px;
+    color: #000;
+    padding: 0 29px;
+    font-weight: 300;
+    text-align: center;
 }
 
 .css__header span {
-  color: #ee5c66;
-  font-weight: 700;
+    color: #ee5c66;
+    font-weight: 700;
 }
 
 .css__header > img {
-  display: block;
-  margin: 5% auto 5%;
-  height: 60px;
+    display: block;
+    margin: 5% auto 5%;
+    height: 60px;
 }
 
 .css__bloc > iframe {
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .css__header > h2 {
-  color: #ee5c66;
-  font-weight: 700;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 12%;
-  font-size: 1.5rem;
+    color: #ee5c66;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    font-size: 1.5rem;
 }
 
 .css__bloc .css__paragraph {
-  font-size: 17px;
-  color: #000;
-  font-weight: 300;
-  margin-left: 12%;
-  margin-bottom: 5%;
-  width: 70%;
+    font-size: 17px;
+    color: #000;
+    font-weight: 300;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    width: 70%;
 }
 
-.css__button {
-  background-color: rgb(222, 79, 97);
-  color: #fff;
-  font-size: 20px;
-  box-shadow: 0px 3px 8px grey;
-  border-radius: 30px;
-  width: 150px;
-  height: 40px;
-  max-width: 80%;
-  border: 0;
-  top: 50%;
-  left: 50%;
-  display: block;
-  margin: 0 auto 50px;
+.myBtn {
+    background-color: rgb(222, 79, 97);
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 3px 8px grey;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    max-width: 80%;
+    border: 0;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin: 0 auto 50px;
 }
 
 .css__image {
-  display: block;
-  margin: 5% auto 5%;
-  height: 60px;
+    display: block;
+    margin: 5% auto 5%;
+    height: 60px;
 }
 
-.css__bloc > h2{
+.css__bloc > h2 {
   color: #ee5c66;
   font-weight: 700;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 12%;
   font-size: 1.5rem;
+}
+
+.books {
+  padding: 30px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -89,7 +95,29 @@
   .css__bloc {
     padding: 0.5em;
   }
-  
+  .books {
+    display: flex;
+    justify-content: center;
+  }
+
+  .book1 {
+    padding: 0 50px 0 0;
+    width: 250px;
+    height: 200px;
+  }
+
+  .book2 {
+    padding: 0 0 0 50px;
+    width: 250px;
+    height: 200px;
+  }
+  /* .css__header p{ 
+    text-align: center;  
+    width: 80%;  
+    width: 80%;
+    
+    max-width: 800px; 
+  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1250px) {
@@ -102,6 +130,5 @@
     display: block;
     margin: 0 15% 0;
     height: 400px;
-  } 
+  }
 }
-

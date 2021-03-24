@@ -12,7 +12,7 @@
 <body>
     <div class="nav__menu">
         <header class="header">
-            <a href="index.js"><img src="./images/logo.scratch-white-small.png" alt=""></a>
+            <a href="index.html"><img src="./images/logo.scratch-white-small.png" alt=""></a>
             <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
             <nav class="nav" id="nav-menu">
                 <div class="bd-grid">
@@ -44,7 +44,7 @@
                     You’ll be no longer <span>scratching your head</span> to seek whether you fully did or did not understand a special concept !! 
                     Practicing is Key to accomplish your goals. All you need is a boost driven by game excitements and <span>score</span>your logistic acquisition level. 
                 </p>
-                <img src="images/tutorials.png" alt="tutorials">   
+                <img src="images/Tutorials-larger.png" alt="tutorials">   
                 <div class="css__grid">
                     <div class="css__bloc">
                         <iframe class="css__video" max-width="100%" height="315" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -67,14 +67,60 @@
                         <p class="css__paragraph">In this quick video we will go over the CSS Flexbox model. This is a quick overview, not an in-depth course.</p>  
                     </div>   
                 </div> 
-                    <button class="css__button">More</button>  
+                <ul class="ul_html">
+                    <button class="myBtn">More</button>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <span class="close">&times;</span>
+                              <h2>Want to learn more?</h2>
+                            </div>
+                            <div class="modal-body">
+                              <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                              <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                            </div>
+                            <div class="modal-footer">
+                                <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                    <fieldset class="modal-fs-frm-inputs">
+                                      <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                      <input type="submit" class="subscribe-btn" value="Subscribe">
+                                    </fieldset>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </ul>  
 
                     <div class="css__books"> 
                         <img class="css__image" src="images/books.png" alt="books"> 
-                        <a href="https://www.amazon.de/-/en/Jon-Duckett/dp/1118008189/ref=sr_1_4?crid=2OOUAMNPSZ5E6&dchild=1&keywords=html&qid=1616082416&sprefix=html%2Caps%2C179&sr=8-4"><img width="120" height="150" src="images/book-html-1.jpeg" alt=""></a>
-                        <a href="https://www.amazon.de/-/en/Elisabeth-Robson-ebook/dp/B00AF57GAW/ref=sr_1_30?dchild=1&keywords=html+book&qid=1616514216&sr=8-30"><img width="120" height="150" src="images/book-html-1.jpeg" alt=""></a>                       
+                        <div class="books">
+                            <a href="https://www.amazon.com/CSS-Secrets-Solutions-Everyday-Problems/dp/1449372635"><img class="book1" width="120" height="150" src="images/CSSsecrets_amazon.jpg" alt="CSS Secrets book from Lea Verou"></a>
+                            <a href="https://www.amazon.nl/CSS-Pocket-Reference-Visual-Presentation/dp/1492033391/ref=asc_df_1492033391/?tag=nlshogostdde-21&linkCode=df0&hvadid=481548728788&hvpos=&hvnetw=g&hvrand=14242861335067670130&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1010648&hvtargid=pla-467017198029&psc=1"><img class="book2" width="120" height="150" src="images/CSSpocketreference.jpg" alt=""></a>                       
+                        </div>
                     </div>
-                    <button class="css__button">More</button> 
+                    <ul class="ul_html">
+                        <button class="myBtn">More</button>
+                        <div class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                  <span class="close">&times;</span>
+                                  <h2>Want to learn more?</h2>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Subscribe to our <span style="font-weight: bold; color: rgb(222, 79, 97)">newsletter</span> in order to receive our latest <span style="font-weight: bold; color: rgb(222, 79, 97)">news</span> and some very <span style="font-weight: bold; color: rgb(222, 79, 97)">cool tricks</span></p></br>
+                                  <p>Just enter your email adress and hit "<span style="font-weight: bold; color: rgb(222, 79, 97)">Subscribe</span>"</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <form class="modal-fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoyndnb" method="post">
+                                        <fieldset class="modal-fs-frm-inputs">
+                                          <input type="email" name="_replyto" class="email-address" placeholder="email@domain.com" required="">
+                                          <input type="submit" class="subscribe-btn" value="Subscribe">
+                                        </fieldset>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </ul> 
                  
             </div>
         </section>    
@@ -169,5 +215,6 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--===== MAIN JS =====-->
     <script src="index.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
