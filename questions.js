@@ -49,7 +49,7 @@ const myQuestions = [
     },
     correctAnswer: "b"
   },
-  {
+ /*  {
     question: "6- What does CSS stand for?",
     answers: {
       a: "Common Style Sheet",
@@ -58,5 +58,5 @@ const myQuestions = [
       d: "Cascading Style Sheet"
     },
     correctAnswer: "d"
-  }
+  } */
 ];
