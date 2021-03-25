@@ -1,11 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -23,6 +15,7 @@ body {
   padding: 0 29px;
   font-weight: 300;
   text-align: justify;
+  text-align-last: center;
 }
 
 .fun__header span {
@@ -125,7 +118,7 @@ iframe {
   }
 
   .fun__header > p {
-    padding: 20px 15%;
+    padding: 20px 20%;
     margin: auto;
     font-size: 19px
   }
@@ -176,5 +169,5 @@ iframe {
   .fun__header > p{
     padding: 20px 25%; 
   }    
-  }
 }
+
