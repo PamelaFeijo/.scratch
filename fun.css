@@ -50,7 +50,7 @@ body {
   font-weight: 300;
   text-align: center;
   margin-bottom: 3%;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .fun__subtitle {
@@ -134,23 +134,21 @@ iframe {
     min-width: 25%;
   }
 
-  .fun__bloc {
+  /* .fun__bloc {
     padding: 0.5em;
-  }
+  } */
 
-  .fun__events > p {
+  .fun__events .events__title {
     padding: 0 15% 5%;
     margin: auto;
-    width: 80%;
-    max-width: 800px;
+    width: 90%;    
     font-size: 19px;
   }
   .fun__subtitle {
-   text-align: left;
+   text-align: justify;
   }
   .fun__paragraph {
-    text-align: left;
-    width: 50%;
+    text-align: justify;    
     max-width: 800px;
   }
 }
@@ -166,8 +164,10 @@ iframe {
     margin: 0 15% 0;
     height: 400px;
   }
-  .fun__header > p{
-    padding: 20px 25%; 
-  }    
+  .fun__events .events__title {
+    padding: 0 0% 5%;  
+    
+    font-size: 19px;
+  }
 }
 

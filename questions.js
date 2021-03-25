@@ -30,24 +30,24 @@ const myQuestions = [
     correctAnswer: "d"
   },
   {
-    question:"4- Who invented JavaScript?",
+    question:"4- How to add a comment in JS?",
     answers: {
-      a: "Douglas Crockford",
-      b: "Sheryl Sandberg",
-      c: "Brendan Eich",
-      d: "Mark Zuckerberg"
+      a: "//This is a comment",
+      b: "This is a comment",
+      c: "!--This is a comment--",
+      d: "'This is a comment;"
     },
-    correctAnswer: "c"
+    correctAnswer: "a"
   },
   {
-    question: "5- What does HTML stand for?",
+    question: "5- How does a FOR loop start?",
     answers: {
-      a: "Hyper Text Preprocessor",
-      b: "Hyper Text Markup Language",
-      c: "Hyper Text Multiple Language",
-      d: "Hyper Tool Multi Language"
+      a: "for (i <= 5; i++)",
+      b: "for (i = 0; i <= 5)",
+      c: "for (i = 0; i <= 5; i++)",
+      d: "for i = 1 to 5"
     },
-    correctAnswer: "b"
+    correctAnswer: "c"
   },
  /*  {
     question: "6- What does CSS stand for?",
