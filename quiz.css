@@ -6,13 +6,13 @@ body {
   border-radius: 5px 5px 0 0;  
   /* max-width: 90%; */
   margin: auto;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-image: url("./images/quizBackground-iPhone.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /*text-align: left;*/
-  max-width: 90%;
+  /*background-position: center; */
+  max-width: 100%;
   height: auto; 
 }
 
@@ -22,7 +22,7 @@ body {
 }
 .fun__quiz > img {
   display: block;
-  margin: 5% auto 3%;
+  margin: 5% auto 1%;
 }
 
 .question {
@@ -70,14 +70,22 @@ body {
   #quiz {
     max-width: 800px;
     height: auto;    
+    padding-top: 100px;
     background-image: url("./images/quizBackground.png");
   }
 } 
 
-@media screen and (min-width: 768px) and (max-width: 1250px) {
+/* @media screen and (min-width: 768px) and (max-width: 1250px) {
   #quiz {
-    max-width: 400px;
+    max-width: 500px;
     padding-top: 2%;
     padding-bottom: 0%;   
   }
-}
+} */
+/* @media screen and (min-width: 768px) {
+  #quiz {
+    max-width: 800px;
+    height: auto;    
+    background-image: url("./images/quizBackground.png");
+  }
+}  */
