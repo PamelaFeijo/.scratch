@@ -80,7 +80,7 @@ h3,
   .pIntro {
     padding: 20px 400px 40px 400px;
     font-weight: lighter;
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -100,12 +100,13 @@ h3,
   h3 {
     text-align: center;
     padding-top: 10px;
+    font-size: 22;
   }
 
   .p2 {
     text-align: center;
     font-weight: lighter;
-    font-size: large;
+    font-size: 20px;
   }
 
   .ul_html {
