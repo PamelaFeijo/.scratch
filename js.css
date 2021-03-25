@@ -34,14 +34,18 @@ h3 {
 }
 
 button {
-  background-color: #de4f61;
-  color: white;
-  border-radius: 20px;
-  width: 150px;
-  height: 40px;
+  background-color: rgb(222, 79, 97);
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0px 3px 8px grey;
+  border-radius: 30px;
+  width: 190px;
+  height: 50px;
+  max-width: 80%;
   border: 0;
-  box-shadow: 0px 5px 10px grey;
-  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  display: block;
   margin: 50px auto 30px;
 }
 
@@ -58,10 +62,8 @@ h3,
 .pIntro {
   padding: 0 30px 0 30px;
   font-weight: lighter;
-  text-align: center;
   font-size: 18px;
   text-align: justify;
-  text-justify: inter-word;
   text-align-last: center;
 }
 
@@ -141,12 +143,8 @@ h3,
   }
 
   .pIntro {
-    padding: 20px 400px 40px 400px;
-    font-weight: lighter;
-    font-size: 20px;
-    text-align: justify;
-    text-justify: inter-word;
-    text-align-last: center;
+    padding: 20px 20%;
+    margin: auto;
   }
 
   .videoGrid {
