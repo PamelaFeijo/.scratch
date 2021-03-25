@@ -18,7 +18,7 @@
               `<label>
                 <input type="radio" name="question${questionNumber}" value="${letter}">
                 ${letter} :
-                ${currentQuestion.answers[letter]}
+                ${currentQuestion.answers[letter]}                
               </label>`
             );
           }
@@ -32,14 +32,16 @@
       );
   
       // finally combine our output list into one string of HTML and put it on the page
+      quizContainer.style.color = 'white';
       quizContainer.innerHTML = output.join('');
     }
   
     function showResults(){
   
       // gather answer containers from our quiz
-      const answerContainers = quizContainer.querySelectorAll('.answers');
-  
+      let answerContainers = quizContainer.querySelectorAll('.answers');
+      
+      
       // keep track of user's answers
       let numCorrect = 0;
   
@@ -48,6 +50,7 @@
   
         // find selected answer
         const answerContainer = answerContainers[questionNumber];
+        
         const selector = `input[name=question${questionNumber}]:checked`;
         const userAnswer = (answerContainer.querySelector(selector) || {}).value;
   
@@ -62,7 +65,7 @@
         // if answer is wrong or blank
         else{
           // color the answers red
-          answerContainers[questionNumber].style.color = 'red';
+          answerContainers[questionNumber].style.color = 'orange';
         }
       });
   
