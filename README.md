@@ -36,6 +36,7 @@
 -   [General info](#general-info)
 -   [Technologies](#technologies)
 -   [Features](#features)
+-   [Screenshots](#screenshots)
 -   [Status](#status)
 -   [Contact](#contact)
 
@@ -60,6 +61,12 @@ Project is created using:
 -   Games
 -   Events Calendar
 -   Contact form
+
+## Screenshots
+
+![screenshot_small](https://user-images.githubusercontent.com/78540300/112604360-561b8180-8e16-11eb-976c-9f58a2a78a78.jpg)
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/78540300/112603762-b6f68a00-8e15-11eb-9717-1d3bfaf7e8c2.gif)
 
 ## Status
 
